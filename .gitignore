@@ -1,0 +1,37 @@
+# Power BI working files and local backups
+**/.pbi/
+*.pbix
+!powerbi/internship-lifecycle-analytics.pbix
+*.pbit
+~$*
+*.bak
+
+# Large source and generated data
+data/raw/
+data/processed/
+*.csv
+*.zip
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated models and artifacts
+models/
+artifacts/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

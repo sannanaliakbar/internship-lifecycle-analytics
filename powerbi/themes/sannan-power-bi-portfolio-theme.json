@@ -1,0 +1,105 @@
+{
+  "name": "Sannan Power BI Portfolio Theme - Final",
+  "background": "#F6F7FB",
+  "foreground": "#1F2328",
+  "tableAccent": "#2F89F8",
+  "dataColors": [
+    "#D4667E",
+    "#2F89F8",
+    "#6FA79F",
+    "#E8B4C0",
+    "#84B9FA",
+    "#C2DDD8",
+    "#A9445D",
+    "#1F5FAF",
+    "#2F746D",
+    "#F4DDE3",
+    "#DCEBFE",
+    "#E5F1EE",
+    "#7C2F44",
+    "#173E75",
+    "#1E514B"
+  ],
+  "minimum": "#DCEBFE",
+  "center": "#2F89F8",
+  "maximum": "#1F5FAF",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#1F2328"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#1F2328"
+    },
+    "largeTitle": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#1F2328"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#1F2328"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 24,
+      "color": "#1F2328"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F6F7FB"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E6E9EF"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "top": 16
+          }
+        ]
+      }
+    }
+  }
+}
